@@ -1,0 +1,36 @@
+html{
+  height: 100%;
+  background-image: url(../Picture/Homebackground2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.btn{
+  font-size: 2vw;
+  border: 10px white;
+  color: black;
+  background: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a.btn:hover{
+  color: white;
+  font-size: 2vw;
+}
+.home-content{
+  color:white;
+  text-align: center;
+}
+h1.head1{
+  font-size: 5vw;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px black;
+}
+p.home{
+  font-size: 2vh;
+}

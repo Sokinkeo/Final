@@ -1,0 +1,78 @@
+html{
+  background: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vh;
+  text-align: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+#item1 {
+  color: black;
+  flex: 40%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: solid orange;
+
+}
+#item2 {
+  color: black;
+  flex: 40%;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: solid orange;
+
+}
+#item3 {
+  color: black;
+  flex: 40%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: solid orange;
+
+}
+
+
+#item4 {
+  color: black;
+  flex: 40%;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: solid orange;
+
+}
+#img-flag{
+  width: 60vh;
+  height: 40vh;
+}
+#img-angkorwat{
+  width: 60vh;
+  height: 40vh;
+}
+#img-king{
+  width: 30vh;
+  height: 40vh;
+}
+.item:hover{
+  color: black;
+  transform:scale(1.05);
+}
+h2{
+  font-size: 2vh;
+}
+a.content{
+  font-weight: bold;
+}
